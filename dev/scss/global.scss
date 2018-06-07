@@ -1,0 +1,96 @@
+.txt-center{
+  text-align: center;
+}
+
+a{
+  outline: none;
+}
+
+#codigo-space{
+  margin: 20px 0;
+}
+
+@media (max-width: 576px){
+  .caja{
+
+    font-size: 0.7rem;
+    &-principal{
+      border-bottom: 3px solid #5a98c6;
+      border-right: none;
+    }
+    &-table{
+      font-size: 0.6rem;
+    }
+    &-title{
+      font-size: 0.8rem;
+    }
+    button{
+      outline: none;
+      padding: 0 5px;
+      background-color: none;
+    }
+  }
+}
+
+.caja{
+  margin: 50px 10px;
+  box-shadow: 0px 2px 6px 0;
+
+  &-principal{
+    @media (min-width: 577px){
+      border-right: 3px solid #5a98c6;
+    }
+  }
+
+  &-title{
+    box-shadow: 0px 1px 3px 2px #5a98c6;
+    font-weight: bold;
+  }
+
+  &-table{
+    max-height: 450px;
+    overflow: auto;
+    margin: auto;
+  }
+
+  &-table, &-table th, &-table td{
+    @media (min-width:577px) {
+      padding: 5px;
+    }
+    @media (max-width: 576px){
+      padding: 2px;
+    }
+    border: 1px solid black;
+    
+  }
+
+  div{
+    margin: 5px 0;
+    padding: 0 10px;
+  }
+  > div{
+    margin: 15px 0;
+    padding: 0 15px;
+  }
+
+  button{
+    @media(min-width: 577px){
+      outline: none;
+      padding: 10px 15px;
+      background-color: none;
+    }
+  }
+
+  .cobro input{
+    margin: 0 0 0 10px;
+  }
+
+  .cliente{
+    margin: 50px auto;
+  }
+}
+
+.block-center{
+  display: block;
+  margin: auto;
+}

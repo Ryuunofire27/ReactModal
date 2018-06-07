@@ -1,0 +1,145 @@
+extends partials/layout
+
+block content
+  #modal-react-render
+  .container
+    .row.caja
+      .col-12.col-md-12.col-lg-8.caja-principal
+        .row.justify-content-center
+          .col-4.txt-center.caja-title  CAJA
+        .row.justify-content-around#codigo-space
+          .col-12.col-md-7
+            span Codigo de venta: 
+            input(type="text" name="codigo-venta")
+          .col-12.col-md-3
+            button  Escanear
+        .row.justify-contet-around
+          .col-12.col-md-12.col-lg-8
+            table.caja-table
+              thead
+                tr
+                  th  Codigo
+                  th  Producto
+                  th  Cantidad
+                  th  Precio
+                  th  Eliminar
+              tbody
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                  td  50
+                  td  X
+          .col-12.col-md-4
+            .row
+              .col-12
+                button  Reiniciar Lista
+            .row
+              .col-12
+                button  Cobrar
+            .row
+              .col-12
+                button  Generar Boleta
+        .row
+          .col-12.cobro
+            span  Total
+            input(type="text", name="total" value="0" readonly)
+      .col-12.col-md-12.col-lg-4.caja-cliente
+        .row.justify-content-center
+          .col-4.txt-center.caja-title  CLIENTE
+        .row
+          div.cliente
+            table.caja-table
+              thead
+                tr
+                  th  Codigo
+                  th  Producto
+                  th  Cantidad
+              tbody
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+                tr
+                  td  154651
+                  td  Arroz
+                  td  10
+        .row
+          .col-12
+            .row
+              .col-12
+                button.block-center  Generar Cliente
